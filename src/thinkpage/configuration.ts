@@ -1,4 +1,4 @@
 /// user id
-export const uid = "UB92EBA3FE";
+export const uid = "U_your_uid";
 /// API key
-export const key = "lta8up2m7rdww2jw";
+export const key = "your_API_key";

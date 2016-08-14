@@ -2,8 +2,8 @@
 const WebClient = require('@slack/client').WebClient;
 const thinkpage = require("./src/thinkpage");
 
-const token = "xoxb-69148985863-GN6KaGYrV32WWWH8iyyvYFSh"; // zxs-sharing.slack.com  weather bot
-const channelId = "C213ZAHPH"; // #weather, can get the value from https://api.slack.com/methods/channels.list
+const token = "xoxb-your-token"; // can get the value from https://api.slack.com
+const channelId = "your channel id"; // #weather channel, can get the value from https://api.slack.com/methods/channels.list
 
 const loc = process.argv[2] || 'shanghai';
 
